@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+.title-page{
+  @apply leading-relaxed uppercase text-7xl py-20
+}
+.title-base-2{
+  @apply text-center p-6 text-3xl text-teal-500
+}
+.card-content{
+@apply flex flex-wrap items-center justify-center
+}
+@tailwind utilities;
