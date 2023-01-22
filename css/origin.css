@@ -1,12 +1,24 @@
 @tailwind base;
 @tailwind components;
 .title-page{
-  @apply leading-relaxed uppercase text-7xl py-20
+@apply leading-relaxed uppercase text-7xl py-20
 }
 .title-base-2{
-  @apply text-center p-6 text-3xl text-teal-500
+@apply text-center p-6 text-3xl text-teal-500 font-bold
+}
+.title-base-3{
+@apply text-center text-2xl italic my-8
 }
 .card-content{
-@apply flex flex-wrap items-center justify-center
+@apply flex flex-wrap justify-center items-center
+}
+.list-item-flex{
+@apply flex flex-wrap justify-around py-4
+}
+.list-item-style{
+@apply font-semibold tracking-wider p-4 h-12 rounded-r-3xl overflow-hidden
+}
+.item-social-media{
+  @apply flex flex-wrap justify-start items-center gap-4 py-4 text-white
 }
 @tailwind utilities;
