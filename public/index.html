@@ -26,7 +26,7 @@
     <h1 class="title-page text-center text-indigo-400">I <span class="hover:bg-indigo-600 rounded-full hover:scale-75 transition-colors">💖</span>  tailwind</h1>
     <article class="p-6">
       <header>
-        <h2 class="title-base-2">¿Qué es?</h2>
+        <h2 class="title-base-2 mb-8">¿Qué es?</h2>
       </header>
       <div class="card-content xl:w-2/3 xl:mx-auto">
         <div class="basis-7/12 text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quis reprehenderit quas ipsa facilis illo eaque nesciunt fuga voluptate.
@@ -39,17 +39,17 @@
 <!-- CARD1 -->
     <arcticle class="my-8 p-6">
       <header>
-        <h2 class="title-base-2">Lo mejor 😎</h2>
+        <h2 class="title-base-2 my-8">Lo mejor 😎</h2>
       </header>
-      <div class="card-content gap-8 sm:flex-nowrap">
-        <ul class="list-disc basis-7/12 order-2 leading-loose sm:list-none">
-          <li class="sm:text-center font-semibold text-red-400">Utility First</li>
-          <li class="sm:text-center font-semibold text-blue-500">Mobility First</li>
-          <li class="sm:text-center font-semibold text-green-500">Responsive Desing</li>
-          <li class="sm:text-center font-semibold text-purple-500">and More ...</li>
+      <div class="card-content gap-12 md:justify-evenly">
+        <ul class="list-disc order-2 leading-loose sm:list-none">
+          <li class="sm:text-center font-semibold text-red-400 hover:scale-125 duration-300">Utility First</li>
+          <li class="sm:text-center font-semibold text-blue-500 hover:scale-125 duration-300">Mobility First</li>
+          <li class="sm:text-center font-semibold text-green-500 hover:scale-125 duration-300">Responsive Desing</li>
+          <li class="sm:text-center font-semibold text-purple-500 hover:scale-125 duration-300">and More ...</li>
         </ul>
-        <div class=" w-full order-1 sm:w-2/5">
-          <img loading="lazy" class="rounded-md transition-all duration-1000 hover:rounded-tr-full hover:rounded-bl-full" src="https://www.dropbox.com/s/1xgz24aimc7doa0/img-stock.webp?raw=1" alt="stock">
+        <div class="w-3/4 md:w-1/4 ">
+          <img loading="lazy" class="w-full rounded-2xl md:rounded-full" src="https://www.dropbox.com/s/1xgz24aimc7doa0/img-stock.webp?raw=1" alt="stock">
         </div>
       </div>
     </arcticle>
@@ -96,11 +96,11 @@
           </li>
           <li class=" text-center tracking-widest my-8 first-letter:text-indigo-400 first-letter:text-5xl first-letter:font-semibold">Lorem, ipsum dolor:</li>
         </ul>
-        <ul class="flex flex-wrap justify-center gap-2 bg-blue-50 p-4 mx-auto rounded-xl sm:w-4/6">
-          <li><img loading="lazy" class="w-16 duration-300 hover:scale-75" src="https://www.dropbox.com/s/ej5cpvjssl231v8/xiaomi.png?raw=1" alt="xiaomi"></li>
-          <li><img loading="lazy" class="w-16 duration-300 hover:scale-75" src="https://www.dropbox.com/s/cr8noam5zmhma3t/android.png?raw=1" alt="xiaomi"></li>
-          <li><img loading="lazy" class="w-16 duration-300 hover:scale-75" src="https://www.dropbox.com/s/7xos1dcvdi2db88/apple.png?raw=1" alt="xiaomi"></li>
-          <li><img loading="lazy" class="w-16 duration-300 hover:scale-75" src="https://www.dropbox.com/s/mzanklzllufzpwa/win.png?raw=1" alt="xiaomi"></li>
+        <ul class="flex flex-wrap justify-evenly gap-2 bg-blue-50 p-4 mx-auto rounded-xl sm:w-4/6 lg:justify-around">
+          <li><img loading="lazy" class="w-10 sm:w-16 duration-300 hover:scale-75" src="https://www.dropbox.com/s/ej5cpvjssl231v8/xiaomi.png?raw=1" alt="xiaomi"></li>
+          <li><img loading="lazy" class="w-10 sm:w-16 duration-300 hover:scale-75" src="https://www.dropbox.com/s/cr8noam5zmhma3t/android.png?raw=1" alt="xiaomi"></li>
+          <li><img loading="lazy" class="w-10 sm:w-16 duration-300 hover:scale-75" src="https://www.dropbox.com/s/7xos1dcvdi2db88/apple.png?raw=1" alt="xiaomi"></li>
+          <li><img loading="lazy" class="w-10 sm:w-16 duration-300 hover:scale-75" src="https://www.dropbox.com/s/mzanklzllufzpwa/win.png?raw=1" alt="xiaomi"></li>
         </ul>
       </article>
       <article class="my-8 p-6">
@@ -121,7 +121,7 @@
       <q class="rounded-2xl text-center block p-10 bg-slate-100 my-28 mx-auto sm:w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quasi.</q>
   </main>
   <footer class="bg-indigo-400">
-    <ul class="flex flex-wrap justify-evenly py-8 gap-4">
+    <ul class=" w-full flex flex-wrap justify-around  py-8 gap-4">
       <ul>
         <h4 class="font-medium text-xl text-amber-400 ">Info</h4>
         <li class="text-white my-2">Autor: Wanderlee Max</li>
@@ -129,19 +129,19 @@
         <li class="my-2">
           <h4 class="font-medium text-xl text-amber-400  mt-12">Tecnologias usadas:</h4>
           <ul class="sm:flex sm: gap-6">
-            <li class="text-white">HTML<img loading="lazy" class="p-2 w-16" src="https://www.dropbox.com/s/9h9ak21s57fr4zk/html.png?raw=1" alt=""></li>
-            <li class="text-white">Tailwind<img loading="lazy" class="p-2 w-16" src="https://www.dropbox.com/s/1qlmhzeohsrjpbm/tailwind-css-icon.png?raw=1" alt=""></li>
-            <li class="text-white">Javascript<img loading="lazy" class="p-2 w-16" src="https://www.dropbox.com/s/fyz4t8d22wr0sez/js.png?raw=1" alt=""></li>
+            <li class="text-white">HTML<img loading="lazy" class="p-2 w-12" src="https://www.dropbox.com/s/9h9ak21s57fr4zk/html.png?raw=1" alt=""></li>
+            <li class="text-white">Tailwind<img loading="lazy" class="p-2 w-12" src="https://www.dropbox.com/s/1qlmhzeohsrjpbm/tailwind-css-icon.png?raw=1" alt=""></li>
+            <li class="text-white">Javascript<img loading="lazy" class="p-2 w-12" src="https://www.dropbox.com/s/fyz4t8d22wr0sez/js.png?raw=1" alt=""></li>
           </ul>
         </li class="my-2">
       </ul>
-      <ul>
+      <ul class="">
         <h4 class="font-medium text-xl text-amber-400">Redes</h4>
-        <li class="flex flex-wrap justify-start items-center gap-4 py-4 text-white"><img loading="lazy" class="w-14 hover:scale-90 duration-300" alt="socialmedia" src="https://www.dropbox.com/s/z04ijjw9bqbo0o9/github.png?raw=1"><span>GitHub</span></li>
-        <li class="flex flex-wrap justify-start items-center gap-4 py-4 text-white"><img loading="lazy" class="w-14 hover:scale-90 duration-300" alt="socialmedia" src="https://www.dropbox.com/s/aksh5s066vq62uy/linkedin.png?raw=1"><span>Linkedin</span></li>
-        <li class="flex flex-wrap justify-start items-center gap-4 py-4 text-white"><img loading="lazy" class="w-14 hover:scale-90 duration-300" alt="socialmedia" src="https://www.dropbox.com/s/hhcg5ja2m4xh4yi/facebook.png?raw=1"><span>Facebook</span></li>
-        <li class="flex flex-wrap justify-start items-center gap-4 py-4 text-white"><img loading="lazy" class="w-14 hover:scale-90 duration-300" alt="socialmedia" src="https://www.dropbox.com/s/ybgeq08aqaq9j1k/instagram.png?raw=1"><span>Instagram</span></li>
-        <li class="flex flex-wrap justify-start items-center gap-4 py-4 text-white"><img loading="lazy" class="w-14 hover:scale-90 duration-300" alt="socialmedia" src="https://www.dropbox.com/s/i6yps8ef9xzz53u/twitter.png?raw=1"><span>Twitter</span></li>
+        <li class="flex flex-wrap justify-start items-center gap-4 py-1 text-white"><img loading="lazy" class="w-8 hover:scale-90 duration-300" alt="socialmedia" src="https://www.dropbox.com/s/z04ijjw9bqbo0o9/github.png?raw=1"><span>GitHub</span></li>
+        <li class="flex flex-wrap justify-start items-center gap-4 py-1 text-white"><img loading="lazy" class="w-8 hover:scale-90 duration-300" alt="socialmedia" src="https://www.dropbox.com/s/aksh5s066vq62uy/linkedin.png?raw=1"><span>Linkedin</span></li>
+        <li class="flex flex-wrap justify-start items-center gap-4 py-1 text-white"><img loading="lazy" class="w-8 hover:scale-90 duration-300" alt="socialmedia" src="https://www.dropbox.com/s/hhcg5ja2m4xh4yi/facebook.png?raw=1"><span>Facebook</span></li>
+        <li class="flex flex-wrap justify-start items-center gap-4 py-1 text-white"><img loading="lazy" class="w-8 hover:scale-90 duration-300" alt="socialmedia" src="https://www.dropbox.com/s/ybgeq08aqaq9j1k/instagram.png?raw=1"><span>Instagram</span></li>
+        <li class="flex flex-wrap justify-start items-center gap-4 py-1 text-white"><img loading="lazy" class="w-8 hover:scale-90 duration-300" alt="socialmedia" src="https://www.dropbox.com/s/i6yps8ef9xzz53u/twitter.png?raw=1"><span>Twitter</span></li>
       </ul>
     </ul>
     <hr>
